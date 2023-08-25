@@ -1,7 +1,6 @@
 from tensorflow.keras.models import load_model
 import numpy as np
 import cv2
-import os
 
 model = load_model('hand_gesture_classifier_model.h5',compile=False)
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics = ['acc'])

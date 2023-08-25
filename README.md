@@ -1,0 +1,3 @@
+## Detecting Hand Gesture Using Web-Cam
+
+This is a mini-project which can detect your hand gesture (from `1` hand symbol to `5` hand symbol). The 'hand_gesture_classifier_model.h5` is a CNN classifier model which is trained on hand gestures dataset. It is imported at the start of the code. The code then accesses the web-cam of the computer and displays the hand gesture made by the user in the box displayed.
